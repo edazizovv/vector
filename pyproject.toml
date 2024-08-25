@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "vector"
+version = "0.0.1"
+description = "A repository of notebooks examining claimed importance of particular predictors or their groups"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "vector"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.0.0"
+openpyxl = "^3.1.5"
+xlsxwriter = "^3.2.0"
+pandas = "^2.2.2"
+numpy = "^2.1.0"
+scipy = "^1.14.1"
+scikit-learn = "^1.5.1"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
